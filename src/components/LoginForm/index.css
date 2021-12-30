@@ -1,0 +1,123 @@
+.login-page-main-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  border: none;
+}
+
+.login-page-details-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 456px;
+  height: 523px;
+}
+
+.company-logo {
+  width: 50px;
+  margin: 15px;
+}
+
+.company-title {
+  color: #f7931e;
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-text-desktop {
+  color: #0f172a;
+  font-weight: 500;
+  font-family: 'DM Sans';
+  font-size: 32px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.label-element {
+  color: #475569;
+  font-family: 'DM Sans';
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.input-element {
+  background: #e2e8f0;
+  border-radius: 2px;
+  border: none;
+}
+
+.login-button {
+  background-color: #f7931e;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: #ef4444;
+  font-family: 'DM Sans';
+  font-size: 12px;
+}
+
+.desktop-food-image {
+  width: 50vw;
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .login-page-main-container {
+    display: flex;
+  }
+  .login-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  .login-page-details-container {
+    height: 100vh;
+  }
+  .company-logo {
+    width: 70px;
+  }
+  .company-title {
+    font-size: 20px;
+  }
+  .login-text-mobile {
+    color: #0f172a;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    font-size: 24px;
+  }
+  .login-text-desktop {
+    font-size: 24px;
+  }
+  .desktop-food-image {
+    display: none;
+  }
+}

@@ -1,0 +1,93 @@
+.restaurant-header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .restaurant-header {
+    margin-top: 32px;
+    margin-left: 70px;
+  }
+}
+
+.restaurant-list-heading {
+  color: #475569;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-list-heading {
+    font-size: 32px;
+  }
+}
+
+.restaurant-description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-description-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.restaurant-description {
+  color: #64748b;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-description {
+    font-size: 16px;
+  }
+}
+
+.sort-by-container {
+  display: flex;
+  align-items: center;
+}
+
+.sort-by-icon {
+  width: 24px;
+  height: 24px;
+  color: #475569;
+  margin-right: 6px;
+}
+
+.sort-by {
+  color: #475569;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.sort-by-select {
+  color: #475569;
+  background-color: #ffffff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  padding: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.select-option {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+}

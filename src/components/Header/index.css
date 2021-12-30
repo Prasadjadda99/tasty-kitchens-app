@@ -1,0 +1,117 @@
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f8fafc;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.desktop {
+  display: none;
+}
+
+.company-title {
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  color: #f7931e;
+  padding: 4px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+}
+
+.nav-icon {
+  width: 80px;
+  height: 20px;
+}
+
+.nav-header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.nav-link-mobile {
+  color: #334155;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.cart {
+  color: #f7931e;
+}
+
+.logout-button-mobile {
+  background-color: #f7931e;
+  border-radius: 12px;
+  border: none;
+  margin-left: 5px;
+}
+
+.mark-button {
+  background-color: transparent;
+  border: none;
+  margin-top: none;
+  padding-top: none;
+}
+
+.mark-icon {
+  color: red;
+  background-color: darkslategrey;
+  width: 20px;
+  padding: 3px;
+  border-radius: 30px;
+  margin-top: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 35px;
+    height: 35px;
+  }
+  .company-title {
+    font-size: 24px;
+  }
+  .desktop {
+    display: flex;
+    align-items: center;
+  }
+  .home {
+    padding-right: 30px;
+  }
+  .cart {
+    padding-right: 30px;
+  }
+  .logout-button-mobile {
+    margin-right: 30px;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  .mobile-nav-icon {
+    display: none;
+  }
+}
